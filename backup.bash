@@ -11,7 +11,7 @@ set -e;
 MOD_SUBDIR_NAME="PF2E_Spell_Expansion_47b3313e-8869-0b2d-cc65-0b2bd2cb2107"
 
 # This is the MinGW64 path to a Steam install of the toolkit
-BG3_DATA="/c/Program Files (x86)/Steam/steamapps/common/Baldurs Gate 3/Data"
+BG3_DATA="/c/steam/steamapps/common/Baldurs Gate 3/Data"
 
 # These are set according to "Understanding the Mod Locations", as of Nov 2024, from
 # https://mod.io/g/baldursgate3/r/getting-started-creating-a-new-mod

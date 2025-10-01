@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="a8098c1a-f86e-11da-bd1a-00112444be1e">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="92de47ab-ab48-4d81-9da2-c2af9e7db0bb" />
+        <field name="Name" type="NameTableFieldDefinition" value="ScoutingEye" />
+        <field name="Sight" type="IntegerTableFieldDefinition" value="1350" />
+        <field name="FOV" type="IntegerTableFieldDefinition" value="360" />
+        <field name="Flags" type="EnumerationListTableFieldDefinition" value="Floating" enumeration_type_name="AttributeFlags" version="1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="RuneRules;PathfinderDCBoost;OffGuardRules;Darkvision;PhantasmalShadows" />
+        <field name="DarkvisionRange" type="StringTableFieldDefinition" value="9" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Charmed;SG_Frightened;SG_Poisoned;UNCONSCIOUS;SCL_SHADOW_CURSE" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="25" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="3" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="9" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="2" />
+        <field name="BludgeoningResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="SlashingResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PiercingResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PoisonResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PsychicResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="8" />
+        <field name="AcidResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ColdResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="FireResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="LightningResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="NecroticResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="RadiantResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ThunderResistance" type="EnumerationListTableFieldDefinition" value="Vulnerable" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE; STATUS_HARD: SCRYINGEYE_HARDCORE" />
+        <field name="GameSize" type="EnumerationTableFieldDefinition" value="Tiny" enumeration_type_name="ObjectSize" version="1" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="10" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="810b5510-6748-4c8e-bef0-d990880ed1dd" />
+        <field name="Hearing" type="IntegerTableFieldDefinition" value="1100" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Bare" enumeration_type_name="StepsType" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Undead;Construct);ProficiencyBonus(SavingThrow, Dexterity);ProficiencyBonus(SavingThrow, Wisdom);ProficiencyBonus(SavingThrow, Constitution);ProficiencyBonus(Skill, Athletics);ProficiencyBonus(Skill, Acrobatics);" />
+        <field name="PathInfluence" type="StringTableFieldDefinition" value="BloodElectrified,100;BloodFrozen,30;Lava,700;Fire,40;HolyFire,40;Hellfire,100;PoisonCloud,70;WyvernPoison,70;DrowPoisonCloud,70;PurpleWormPoison,70;SerpentVenom,70;InvisibleGithAcid,70;CloudkillCloud,70;MaliceCloud,70;CrawlerMucusCloud,70;WaterElectrified,100;WaterFrozen,30;Grease,30;Web,30;Vines,40;SporeBlackCloud,100;WaterCloudElectrified,40;SporeGreenCloud,40;Acid,30;CausticBrine,40;DarknessCloud,30;FogCloud,30;Mud,30;Oil,30;Poison,30;SpikeGrowth,40;SporePinkCloud,40;StinkingCloud,40" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" value="265d62c4-9b82-4ed6-9a86-da675b4ef8fe" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" value="2" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="UnarmedAttackAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="UnarmedRangedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:2;BonusActionPoint:0;Movement:7.5;ReactionActionPoint:1" />
+        <field name="MinimumDetectionRange" type="StringTableFieldDefinition" value="2" />
+        <field name="FallingHitEffect" type="StringTableFieldDefinition" value="VFX_Combat_Bludgeoning_Damage_Blood_01" />
+        <field name="FallingLandEffect" type="StringTableFieldDefinition" value="VFX_Combat_Force_Land_01" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="ArmorType" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="23a3d799-5b9f-43f8-a289-311bba261cbb" />
+        <field name="Name" type="NameTableFieldDefinition" value="PhantasmalMinion" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="6" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="13" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="4" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="15" />
+        <field name="Flags" type="EnumerationListTableFieldDefinition" value="Floating" enumeration_type_name="AttributeFlags" version="1" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="BLEEDING;GAPING_WOUND;CHEST_TRAUMA;SG_Charmed;SG_Frightened;SG_Poisoned;UNCONSCIOUS;SCL_SHADOW_CURSE;SG_Disease;SG_Paralyzed;SG_Unconscious" />
+        <field name="PathInfluence" type="StringTableFieldDefinition" value="BloodElectrified,100;BloodFrozen,30;Lava,700;Fire,40;HolyFire,40;Hellfire,100;PoisonCloud,70;WyvernPoison,70;DrowPoisonCloud,70;PurpleWormPoison,70;SerpentVenom,70;InvisibleGithAcid,70;CloudkillCloud,70;MaliceCloud,70;CrawlerMucusCloud,70;WaterElectrified,100;WaterFrozen,30;Grease,30;Web,30;Vines,40;SporeBlackCloud,100;WaterCloudElectrified,40;SporeGreenCloud,40;Acid,30;CausticBrine,40;DarknessCloud,30;FogCloud,30;Mud,30;Oil,30;Poison,30;SpikeGrowth,40;SporePinkCloud,40;StinkingCloud,40" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" value="265d62c4-9b82-4ed6-9a86-da675b4ef8fe" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" value="2" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Intelligence" enumeration_type_name="Ability" version="1" />
+        <field name="UnarmedAttackAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="UnarmedRangedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:2;BonusActionPoint:0;Movement:9;ReactionActionPoint:1" />
+        <field name="Passives" type="StringTableFieldDefinition" value="RuneRules;PathfinderDCBoost_PhantasmalMinion;OffGuardRules;Darkvision;PhantasmalShadows" />
+        <field name="BludgeoningResistance" type="EnumerationListTableFieldDefinition" value="ResistantToNonMagical" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="SlashingResistance" type="EnumerationListTableFieldDefinition" value="ResistantToNonMagical" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PiercingResistance" type="EnumerationListTableFieldDefinition" value="ResistantToNonMagical" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="AcidResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ColdResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="FireResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="LightningResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="NecroticResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PoisonResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PsychicResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="RadiantResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="ThunderResistance" type="EnumerationListTableFieldDefinition" value="Resistant" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="MinimumDetectionRange" type="StringTableFieldDefinition" value="2" />
+        <field name="DarkvisionRange" type="StringTableFieldDefinition" value="9" />
+        <field name="FallingHitEffect" type="StringTableFieldDefinition" value="VFX_Combat_Bludgeoning_Damage_Blood_01" />
+        <field name="FallingLandEffect" type="StringTableFieldDefinition" value="VFX_Combat_Force_Land_01" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="ArmorType" version="1" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_HARD: HEALTHBOOST_HARDCORE" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="1" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="810b5510-6748-4c8e-bef0-d990880ed1dd" />
+        <field name="Sight" type="IntegerTableFieldDefinition" value="1600" />
+        <field name="Hearing" type="IntegerTableFieldDefinition" value="1100" />
+        <field name="FOV" type="IntegerTableFieldDefinition" value="90" />
+        <field name="GameSize" type="EnumerationTableFieldDefinition" value="Small" enumeration_type_name="ObjectSize" version="1" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Bare" enumeration_type_name="StepsType" version="1" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="BlockRegainHP(Undead;Construct);ProficiencyBonus(SavingThrow, Dexterity);ProficiencyBonus(SavingThrow, Wisdom);ProficiencyBonus(SavingThrow, Constitution);ProficiencyBonus(Skill, Athletics);ProficiencyBonus(Skill, Acrobatics);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="796541f6-9e49-4619-99dc-855fbfd870ef" />
+        <field name="Name" type="NameTableFieldDefinition" value="FlameDrake" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5691e019-c997-4b8b-9408-a5d6e15c9988" />
+        <field name="Strength" type="IntegerTableFieldDefinition" value="20" />
+        <field name="Dexterity" type="IntegerTableFieldDefinition" value="12" />
+        <field name="Intelligence" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Constitution" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Wisdom" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Charisma" type="IntegerTableFieldDefinition" value="10" />
+        <field name="Armor" type="IntegerTableFieldDefinition" value="22" />
+        <field name="Vitality" type="IntegerTableFieldDefinition" value="75" />
+        <field name="DefaultBoosts" type="StringTableFieldDefinition" value="ProficiencyBonus(SavingThrow, Dexterity);ProficiencyBonus(SavingThrow, Wisdom);ProficiencyBonus(SavingThrow, Constitution);ProficiencyBonus(Skill, Athletics);ProficiencyBonus(Skill, Acrobatics);" />
+        <field name="PersonalStatusImmunities" type="StatusIdsTableFieldDefinition" value="PRONE;BURNING;BURNING_LAVA;GRAPPLED;GRAPPLED_NETHERTENTACLE;SG_Prone;SG_Paralyzed;SG_Sleeping;SG_Sleeping_Magical" />
+        <field name="ProficiencyBonus" type="IntegerTableFieldDefinition" value="8" />
+        <field name="Passives" type="StringTableFieldDefinition" value="RuneRules;PathfinderDCBoost;OffGuardRules;MultipleAttackPenalty;MagicResistance;AttackOfOpportunity;Darkvision;DarknessRules" />
+        <field name="FireResistance" type="EnumerationListTableFieldDefinition" value="Immune" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="DarkvisionRange" type="StringTableFieldDefinition" value="30" />
+        <field name="DifficultyStatuses" type="StringTableFieldDefinition" value="STATUS_EASY: HEALTHREDUCTION_EASYMODE; STATUS_MEDIUM: REDDRAGON_NORMAL; STATUS_HARD: HEALTHBOOST_HARDCORE; STATUS_HARD: DRAGON_RED_RETALIATE_TECHNICAL; STATUS_HARD: REDDRAGON_HARDCORE" />
+        <field name="GameSize" type="EnumerationTableFieldDefinition" value="Medium" enumeration_type_name="ObjectSize" version="1" />
+        <field name="Flags" type="EnumerationListTableFieldDefinition" value="Grounded" enumeration_type_name="AttributeFlags" version="1" />
+        <field name="ColdResistance" type="EnumerationListTableFieldDefinition" value="Vulnerable" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="Level" type="IntegerTableFieldDefinition" value="5" />
+        <field name="SpellCastingAbility" type="EnumerationTableFieldDefinition" value="Wisdom" enumeration_type_name="Ability" version="1" />
+        <field name="ActionResources" type="StringTableFieldDefinition" value="ActionPoint:2;BonusActionPoint:0;Movement:0;ReactionActionPoint:1" />
+        <field name="BludgeoningResistance" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="SlashingResistance" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="PiercingResistance" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="ResistanceFlags" version="1" />
+        <field name="XPReward" type="GuidObjectTableFieldDefinition" value="810b5510-6748-4c8e-bef0-d990880ed1dd" />
+        <field name="Sight" type="IntegerTableFieldDefinition" value="1600" />
+        <field name="Hearing" type="IntegerTableFieldDefinition" value="1100" />
+        <field name="FOV" type="IntegerTableFieldDefinition" value="90" />
+        <field name="Weight" type="FloatTableFieldDefinition" value="6000" />
+        <field name="StepsType" type="EnumerationTableFieldDefinition" value="Clawed" enumeration_type_name="StepsType" version="1" />
+        <field name="PathInfluence" type="StringTableFieldDefinition" value="BloodElectrified,100;BloodFrozen,30;Lava,700;Fire,40;HolyFire,40;Hellfire,100;PoisonCloud,70;WyvernPoison,70;DrowPoisonCloud,70;PurpleWormPoison,70;SerpentVenom,70;InvisibleGithAcid,70;CloudkillCloud,70;MaliceCloud,70;CrawlerMucusCloud,70;WaterElectrified,100;WaterFrozen,30;Grease,30;Web,30;Vines,40;SporeBlackCloud,100;WaterCloudElectrified,40;SporeGreenCloud,40;Acid,30;CausticBrine,40;DarknessCloud,30;FogCloud,30;Mud,30;Oil,30;Poison,30;SpikeGrowth,40;SporePinkCloud,40;StinkingCloud,40" />
+        <field name="Proficiency Bonus Scaling" type="GuidObjectTableFieldDefinition" value="265d62c4-9b82-4ed6-9a86-da675b4ef8fe" />
+        <field name="UnarmedAttackAbility" type="EnumerationTableFieldDefinition" value="Strength" enumeration_type_name="Ability" version="1" />
+        <field name="UnarmedRangedAttackAbility" type="EnumerationTableFieldDefinition" value="Dexterity" enumeration_type_name="Ability" version="1" />
+        <field name="MinimumDetectionRange" type="StringTableFieldDefinition" value="2" />
+        <field name="FallingHitEffect" type="StringTableFieldDefinition" value="VFX_Combat_Bludgeoning_Damage_Blood_01" />
+        <field name="FallingLandEffect" type="StringTableFieldDefinition" value="VFX_Combat_Force_Land_01" />
+        <field name="ArmorType" type="EnumerationTableFieldDefinition" value="None" enumeration_type_name="ArmorType" version="1" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
