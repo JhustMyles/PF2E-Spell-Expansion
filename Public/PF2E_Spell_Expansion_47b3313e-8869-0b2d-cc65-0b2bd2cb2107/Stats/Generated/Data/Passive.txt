@@ -26,6 +26,16 @@ data "StatsFunctorContext" "OnAttacked"
 data "Conditions" "IsMeleeAttack() and HasDamageEffectFlag(DamageFlags.Hit)"
 data "StatsFunctors" "ApplyStatus(PASSIVE_FIRE_SHIELD_WARM,100,0);ApplyStatus(SELF,PASSIVE_FIRE_SHIELD_WARM_ATTACKER,100,0);DealDamage(SWAP,3d6, Fire,Magical)"
 
+new entry "ShieldBreakFire4"
+type "PassiveData"
+using "ShieldBreakCommon"
+data "DescriptionParams" "N/A;40"
+
+new entry "ShieldBreakFire6"
+type "PassiveData"
+using "ShieldBreakFire4"
+data "DescriptionParams" "N/A;50"
+
 new entry "CONJURATION"
 type "PassiveData"
 

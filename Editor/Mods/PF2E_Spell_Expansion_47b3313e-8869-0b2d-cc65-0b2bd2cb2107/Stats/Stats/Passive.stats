@@ -41,6 +41,22 @@
         <field name="Properties" type="EnumerationListTableFieldDefinition" value="IsHidden" enumeration_type_name="PassiveFlags" version="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bfc693f3-6d61-44e5-845a-2642d93eebb8" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShieldBreakFire4" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="71ad745a-ee25-4f9b-a111-05a00168c97b" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="N/A;40" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="edb327a5-70dc-421f-b882-d41e4920e03f" />
+        <field name="Name" type="NameTableFieldDefinition" value="ShieldBreakFire6" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="bfc693f3-6d61-44e5-845a-2642d93eebb8" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="N/A;50" />
+      </fields>
+    </stat_object>
     <stat_object color="#FF000000" is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="b82b2c88-fd8a-42cd-ac72-d3b849462ca0" />
