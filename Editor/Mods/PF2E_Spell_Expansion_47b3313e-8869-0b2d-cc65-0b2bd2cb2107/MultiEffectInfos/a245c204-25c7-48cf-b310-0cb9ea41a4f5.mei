@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<MultiEffectInfos UUID="a245c204-25c7-48cf-b310-0cb9ea41a4f5" OwnerUUID="3ab48303-ded2-46ef-b4c4-bdd0b7cd3fab" Name="OAKENRESILIENCE_StatusEffect">
-  <EffectInfo UUID="69c96ed7-626c-4a00-8ede-27535c3fe1ac" EffectResourceGuid="4578c91a-0142-8fbc-e15a-f721de7b1ecf" DetachSource="false" DetachTarget="false" KeepRotation="false" UseOrientDirection="false" UseDistance="false" UseScaleOverride="true" KeepScale="false" MainHand="false" OffHand="false" MinDistance="0" MaxDistance="0" BindSourceTo="SourceEntity" BindTargetTo="TargetEntity" Pivot="Target" Enabled="true" DamageType="None" VerbalIntent="None" TargetBone="Dummy_BodyFX" SourceCheckEquipmentTagConditions="true" TargetCheckEquipmentTagConditions="true" />
-</MultiEffectInfos>

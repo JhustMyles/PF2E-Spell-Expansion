@@ -153,7 +153,7 @@
   <content contentuid="h80328b97g62b4g5844g98dfg6a9b32ab1649" version="1">Sure Strike</content>
   <content contentuid="hbc4cac83gf488g71e1g8211gc1ecd1a067ad" version="1">Has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against True Strike's target.</content>
   <content contentuid="h706ea339g10bfgad1ege9f2g7ad0ae2e64ab" version="1">Sure Strike</content>
-  <content contentuid="haf46e19cg816fg0154g0b2ag7a1e3ce4b3f2" version="1">The spellcaster has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; against this creature.</content>
+  <content contentuid="haf46e19cg816fg0154g0b2ag7a1e3ce4b3f2" version="2">The spellcaster has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; their next spell or weapon attack.</content>
   <content contentuid="h1963da97gebf0ge76cge054g7412253ae108" version="1">Telekinetic Manuver</content>
   <content contentuid="h1ce0100dg4289gbacbg1227ga23025c0a165" version="1">Telekinetic Manuver - Disarm</content>
   <content contentuid="hb8725bdeg2bedgdecbgee95g063b61d0bd57" version="3">Range 60 feet&lt;br&gt;Defense AC&lt;br&gt;With a rush of telekinetic power, you move a foe or something they carry. You can attempt to Disarm the target using a spell attack roll instead of an Athletics check.</content>
@@ -223,4 +223,31 @@
   <content contentuid="h2ce68e76gcbcfg57dbg03aag4b4ccab226f7" version="1">Raise a wall of non-magical, solid stone.</content>
   <content contentuid="he3b1dae5g2d2cgd819g5bc9g84c3a650ea46" version="1">Pathfinder Rules</content>
   <content contentuid="h202478b0gc2e7g4650g3d7egace15171c935" version="1">Pathfinder has a base DC of 10 instead of 8.&lt;br&gt;Critical hits add ability modifiers twice.&lt;br&gt;Short rests are unlimited.</content>
+  <content contentuid="h62da0819gfb61g7bb5gbfddg1c83efc55962" version="1">Conductive Weapon</content>
+  <content contentuid="h5a157738gd6f8g9ac4g8912g0b127caedfed" version="1">Channel a powerful electric current through the metal of a weapon, zapping anyone the item hits. The target becomes a +[1] shock weapon.</content>
+  <content contentuid="h10962eefg14bcgdca4g0ab2g0dd670ba0251" version="1">Containment</content>
+  <content contentuid="hc3c3e15ag0099g3ddcg78cegadb5c5170bc0" version="1">Enclose a target in a sphere of shimmering force.&lt;br&gt;Defense Reflex&lt;br&gt;Affected entity is impervious to all spell effects and damage, and cannot cast spells, deal damage, or move..</content>
+  <content contentuid="h3a72c1e1g045eg684dg4ca6g6eb34b436e2c" version="1">Collective Transposition</content>
+  <content contentuid="h38440fa2gfdc3ge426gb7d4gceba72a4ae33" version="1">You teleport the targets to new positions within the area. The creatures must each be able to fit in their new space, and their positions must be unoccupied, entirely within the area, and in your line of sight. Unwilling creatures can attempt a Will save.</content>
+  <content contentuid="h94ac30acg8051gdfd0gf717gb56f74ad0eb2" version="1">Sea of Thought</content>
+  <content contentuid="h3d951171g4e35g87c6gfd81g171656e7af09" version="1">Sea of Thought</content>
+  <content contentuid="ha4e337c6g965bg95bdg4744gdffb7a1a5be2" version="1">Hypnotize Aura</content>
+  <content contentuid="h48842a67g0348g4a2dgae8ege21f292cfbdd" version="1">You are dazzled while inside the area of Hypnotize.</content>
+  <content contentuid="h3627f246g5084g6a57g0894g6146de26308d" version="1">Corrosive Muck</content>
+  <content contentuid="hfb6a3098g6e9cg7750gac9eg2e254608164c" version="1">A creature that begins its turn in the area takes 8d6 acid damage (basic Reflex save).</content>
+  <content contentuid="h5ce957e4gadfcg56ecg712ag6fc3062f6625" version="1">Corrosive Muck</content>
+  <content contentuid="h1596d565gd231g869fgaf9cg8ad135590026" version="1">A creature that begins its turn in the area takes 8d6 acid damage (basic Reflex save).</content>
+  <content contentuid="hd7aa7a44g9284ge8f0ga22eg83f718acbde2" version="1">Sea of Thought</content>
+  <content contentuid="h2240dc7dg1ea2g62b6g622eg8317ce905fab" version="1">Hypnotize</content>
+  <content contentuid="h85b645e6g1068g8b5dgdd6dgd0ec572eb708" version="1">2 Actions&lt;br&gt;Range 120 feet&lt;br&gt;Area 10-foot burst&lt;br&gt;Defense None&lt;br&gt;Duration 1 minute&lt;br&gt;You create a cloud of mesmerizing patterns and colors that hovers in the air. Creatures are dazzled while inside the cloud.</content>
+  <content contentuid="h9b0b7b0eg9081g4114g5faega61cd44599cf" version="2">This area is covered in semi-solidified thought that acts as difficult terrain.</content>
+  <content contentuid="h5d83b2fbgdd61ge14bg3405g10699144fc17" version="2">This area is covered in semi-solidified thought that acts as difficult terrain.</content>
+  <content contentuid="ha34244fegb113gcebfgdba8gfa8e1c999290" version="1">Target Self&lt;br&gt;Duration End of Turn&lt;br&gt;The next time you make an attack roll before the end of your turn, roll it twice and use the better result. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being concealed or hidden. You are then temporarily immune to sure strike for 10 minutes.</content>
+  <content contentuid="h8b367e01g8cc9g3d73g93d4g5a5d05a7b1e9" version="1">Sure Strike</content>
+  <content contentuid="he04016d1g7e82g6e34ge913g3a6b6478aa17" version="1">Target Self&lt;br&gt;Duration End of Turn&lt;br&gt;The next time you make an attack roll before the end of your turn, roll it twice and use the better result. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being concealed or hidden. Usable once per combat.</content>
+  <content contentuid="ha953f412g65f1g9849g6350g0f89149ad36b" version="1">Sure Strike</content>
+  <content contentuid="hc166032dgcf55geca3g0190g9605310d2013" version="1">The spellcaster has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on their next &lt;LSTag Tooltip="AttackRoll"&gt;Attack Roll&lt;/LSTag&gt; against the affected entity.</content>
+  <content contentuid="h802b38b9g943eg1274gfa8ag931e19d80baf" version="1">Sure Strike</content>
+  <content contentuid="h5a82bee5gcfb3g93a9gebb5gbd124fda4a26" version="1">The spellcaster has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;Attack Rolls&lt;/LSTag&gt; their next spell or weapon attack against this creature.</content>
+  <content contentuid="h25626efegeac8g1bdeg5d90g4012ed9c2a7c" version="1">Range 60 feet&lt;br&gt;Area 15-foot burst&lt;br&gt;Defense Fortitude&lt;br&gt;You cover the area in a sloshing torrent of semi-solidified thought, roughly ankle high. The area becomes difficult terrain, similarly to a shallow bog. Each round that a creature starts its turn in the area, it must attempt a Fortitude save against the shifting waves of thought.&lt;br&gt;Failure Target takes a –10-foot circumstance penalty to its Speeds until it leaves the area.&lt;br&gt;Critical Failure Target is knocked prone.&lt;br&gt;Heightened (+1) Radius increases by 5 feet.</content>
 </contentList>

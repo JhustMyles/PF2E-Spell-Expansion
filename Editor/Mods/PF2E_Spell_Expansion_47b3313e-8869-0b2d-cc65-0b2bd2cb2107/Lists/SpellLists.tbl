@@ -120,7 +120,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ca644212-5a33-424a-9a34-006f86570058" />
         <field name="Name" type="NameTableFieldDefinition" value="Wizard 1st Rank" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_ConductiveWeapon;Target_TrueStrike;" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_ConductiveWeapon;Target_SureStrike" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="11f331b0-e8b7-473b-9d1f-19e8e4178d7d" />
       </fields>
     </stat_object>
@@ -128,7 +128,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="dd678664-a348-4ea6-99c2-eb7313ffb77f" />
         <field name="Name" type="NameTableFieldDefinition" value="Wizard 2nd Rank" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_ConductiveWeapon;Target_TrueStrike;Target_TelekineticManuver;Target_OakenResillience_2;Projectile_IgniteFireworks;" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_ConductiveWeapon;Target_SureStrike;Target_TelekineticManuver;Target_OakenResillience_2;Projectile_IgniteFireworks;" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="5cb09b20-2b48-4598-b938-dce0aea62d7f" />
       </fields>
     </stat_object>
@@ -137,14 +137,14 @@
         <field name="UUID" type="IdTableFieldDefinition" value="828ebd17-efa4-4189-ac9b-7baf4a5da496" />
         <field name="Name" type="NameTableFieldDefinition" value="Wizard 3rd Rank" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="b8097c73-d37e-4c56-8aa0-6c889e1c79fb" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_ConductiveWeapon;Target_TrueStrike;Target_TelekineticManuver;Target_OakenResillience_2;Projectile_IgniteFireworks;Target_Levitate_PF2;Target_Organsight" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_ConductiveWeapon;Target_SureStrike;Target_TelekineticManuver;Target_OakenResillience_2;Projectile_IgniteFireworks;Target_Levitate_PF2;Target_Organsight;Target_SeaOfThought" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="d65890cc-7b93-4fd5-86a8-29b0b3e7e8b0" />
         <field name="Name" type="NameTableFieldDefinition" value="Wizard 4th Rank" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_ConductiveWeapon;Target_TrueStrike;Target_TelekineticManuver;Target_OakenResillience_2;Projectile_IgniteFireworks;Target_Levitate_PF2;Target_Organsight;Shout_PF2_FireShield_Summon;Target_PlanarTether;Target_Containment;Zone_WeaponStorm_ContainerA;Target_Clarivoyance" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_ConductiveWeapon;Target_SureStrike;Target_TelekineticManuver;Target_OakenResillience_2;Projectile_IgniteFireworks;Target_Levitate_PF2;Target_Organsight;Target_SeaOfThought;Shout_PF2_FireShield_Summon;Target_PlanarTether;Target_Containment;Zone_WeaponStorm_ContainerA;Target_Clarivoyance" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="dfcf7153-ba05-4740-9c18-395941209728" />
       </fields>
     </stat_object>
@@ -153,7 +153,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="7bf78618-e74f-4d33-8975-c685726d5f7e" />
         <field name="Name" type="NameTableFieldDefinition" value="Wizard 5th Rank" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="423ba380-9025-4a50-8e63-a1a03e10f9b1" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_ConductiveWeapon;Target_TrueStrike;Target_TelekineticManuver;Target_OakenResillience_2;Projectile_IgniteFireworks;Target_Levitate_PF2;Target_Organsight;Shout_PF2_FireShield_Summon;Target_PlanarTether;Target_Containment;Zone_WeaponStorm_ContainerA;Target_Clarivoyance;Throw_TelekineticHaul;Target_ScoutingEye" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_ConductiveWeapon;Target_SureStrike;Target_TelekineticManuver;Target_OakenResillience_2;Projectile_IgniteFireworks;Target_Levitate_PF2;Target_Organsight;Target_SeaOfThought;Shout_PF2_FireShield_Summon;Target_PlanarTether;Target_Containment;Zone_WeaponStorm_ContainerA;Target_Clarivoyance;Throw_TelekineticHaul;Target_ScoutingEye" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -161,7 +161,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="b00c92c2-e8ab-4e80-a5f0-23ab6489145b" />
         <field name="Name" type="NameTableFieldDefinition" value="Wizard 6th Rank" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="b623e9d5-dd51-4acd-940b-6f3fc9955889" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_ConductiveWeapon;Target_TrueStrike;Target_TelekineticManuver;Target_OakenResillience_2;Projectile_IgniteFireworks;Target_Levitate_PF2;Target_Organsight;Shout_PF2_FireShield_Summon;Target_PlanarTether;Target_Containment;Zone_WeaponStorm_ContainerA;Target_Clarivoyance;Throw_TelekineticHaul;Target_ScoutingEye;Target_CollectiveTransposition;" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_ConductiveWeapon;Target_SureStrike;Target_TelekineticManuver;Target_OakenResillience_2;Projectile_IgniteFireworks;Target_Levitate_PF2;Target_Organsight;Target_SeaOfThought;Shout_PF2_FireShield_Summon;Target_PlanarTether;Target_Containment;Zone_WeaponStorm_ContainerA;Target_Clarivoyance;Throw_TelekineticHaul;Target_ScoutingEye;Target_CollectiveTransposition;" />
       </fields>
     </stat_object>
     <stat_object color="#FF000000" is_substat="false">
@@ -280,7 +280,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="0988d730-03e7-495a-9e6b-fe54482e7054" />
         <field name="Name" type="NameTableFieldDefinition" value="Bard 1st Rank" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_TrueStrike;" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_SureStrike" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="dcb45167-86bd-4297-9b9d-c295be51af5b" />
       </fields>
     </stat_object>
@@ -288,7 +288,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="ab24fb5f-fe43-4588-8970-d8582ecde3ed" />
         <field name="Name" type="NameTableFieldDefinition" value="Bard 2nd Rank" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_TrueStrike;Target_TelekineticManuver;Target_ClearMind;Target_SoundBody;" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_SureStrike;Target_TelekineticManuver;Target_ClearMind;Target_SoundBody;" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="5c018181-961a-4ae9-b441-521b7751da69" />
       </fields>
     </stat_object>
@@ -297,7 +297,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="ec72a4d4-451f-4f27-83a0-af723eec70b6" />
         <field name="Name" type="NameTableFieldDefinition" value="Bard 3rd Rank" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="469bf066-992b-4584-b20d-0b32613632ef" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_TrueStrike;Target_TelekineticManuver;Target_ClearMind;Target_SoundBody;Target_Levitate_PF2;Target_Organsight" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_SureStrike;Target_TelekineticManuver;Target_ClearMind;Target_SoundBody;Target_Levitate_PF2;Target_Organsight;Target_SeaOfThought;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -305,7 +305,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="0c1c96d4-6084-41b0-84db-49d56b39e3bc" />
         <field name="Name" type="NameTableFieldDefinition" value="Bard 4th Rank" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="f8aaccf3-9636-4288-8a2a-c339e99d82dc" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_TrueStrike;Target_TelekineticManuver;Target_ClearMind;Target_SoundBody;Target_Levitate_PF2;Target_Organsight;Target_TortoiseAndHare;Target_PlanarTether;Target_Containment;Target_Clarivoyance" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_SureStrike;Target_TelekineticManuver;Target_ClearMind;Target_SoundBody;Target_Levitate_PF2;Target_Organsight;Target_SeaOfThought;Target_TortoiseAndHare;Target_PlanarTether;Target_Containment;Target_Clarivoyance" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -313,7 +313,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="20ee4c64-cdf0-4391-8f6a-a8a77107dc80" />
         <field name="Name" type="NameTableFieldDefinition" value="Bard 5th Rank" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="4c9674d7-b7a3-4a2f-be91-150d366d9d91" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_TrueStrike;Target_TelekineticManuver;Target_ClearMind;Target_SoundBody;Target_Levitate_PF2;Target_Organsight;Target_TortoiseAndHare;Target_PlanarTether;Target_Containment;Target_Clarivoyance;Throw_TelekineticHaul;Target_ScoutingEye" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_SureStrike;Target_TelekineticManuver;Target_ClearMind;Target_SoundBody;Target_Levitate_PF2;Target_Organsight;Target_SeaOfThought;Target_TortoiseAndHare;Target_PlanarTether;Target_Containment;Target_Clarivoyance;Throw_TelekineticHaul;Target_ScoutingEye" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -321,7 +321,7 @@
         <field name="UUID" type="IdTableFieldDefinition" value="5e1bd744-7bc8-46ca-8fe2-fda867f708c2" />
         <field name="Name" type="NameTableFieldDefinition" value="Bard 6th Rank" />
         <field name="MergedInto" type="GuidObjectTableFieldDefinition" value="b8ba6f39-17d4-4608-8bb7-b858b9e36da6" />
-        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_TrueStrike;Target_TelekineticManuver;Target_ClearMind;Target_SoundBody;Target_Levitate_PF2;Target_Organsight;Target_TortoiseAndHare;Target_PlanarTether;Target_Containment;Target_Clarivoyance;Throw_TelekineticHaul;Target_ScoutingEye;Target_CollectiveTransposition;" />
+        <field name="Spells" type="StringTableFieldDefinition" value="Target_PhantasmalMinion;Target_KineticRam;Target_SureStrike;Target_TelekineticManuver;Target_ClearMind;Target_SoundBody;Target_Levitate_PF2;Target_Organsight;Target_SeaOfThought;Target_TortoiseAndHare;Target_PlanarTether;Target_Containment;Target_Clarivoyance;Throw_TelekineticHaul;Target_ScoutingEye;Target_CollectiveTransposition;" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -1,6 +1,17 @@
 new entry "ATTACK SPELL PASSIVES"
 type "PassiveData"
 
+new entry "SureStrike"
+type "PassiveData"
+using "TrueStrike"
+data "DisplayName" "ha953f412g65f1g9849g6350g0f89149ad36b;1"
+data "Description" "hc166032dgcf55geca3g0190g9605310d2013;1"
+data "Icon" "Spell_Divination_TrueStrike"
+data "PriorityOrder" "2"
+data "Properties" "Highlighted"
+data "Conditions" "IsAttack() and HasStatus('SURE_STRIKE',context.Target,context.Source);"
+data "StatsFunctors" "ApplyStatus(PASSIVE_TRUE_STRIKE,100,0);RemoveStatus(SURE_STRIKE);RemoveStatus(SELF,SURE_STRIKE_OWNER)"
+
 new entry "FIRE SPELL PASSIVES"
 type "PassiveData"
 
